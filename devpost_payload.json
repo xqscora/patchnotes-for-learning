@@ -1,0 +1,26 @@
+{
+  "project_name": "PatchNotes for Learning",
+  "tagline": "Make your code changes explainable to yourself.",
+  "description": "PatchNotes for Learning turns a pasted unified diff into traceable evidence for a beginner's own reflection. It extracts changed files, additions, deletions, and hunk counts, then places that evidence beside two author-written prompts: what changed, and what was learned or tested. The tool deliberately does not generate a learning story, grade the author, read a local repository, or upload code.",
+  "built_with": [
+    "HTML5",
+    "CSS3",
+    "Vanilla JavaScript",
+    "Browser DOM APIs"
+  ],
+  "source_code_url": "https://github.com/xqscora/patchnotes-for-learning",
+  "live_demo_url": "https://xqscora.github.io/patchnotes-for-learning/",
+  "recording_entry_url": "https://xqscora.github.io/patchnotes-for-learning/?demo=1",
+  "video_url": null,
+  "screenshots": [
+    "screenshot_empty.jpg",
+    "screenshot_reflection.jpg"
+  ],
+  "ai_use_disclosure": "AI coding assistance was used while drafting the HTML, CSS, JavaScript, and documentation. The project owner reviewed the implementation and remains responsible for understanding and explaining the submitted work.",
+  "submission_status": "not_submitted",
+  "missing_before_submit": [
+    "real 3-5 minute demo video URL",
+    "Cora-owned Devpost login",
+    "event-window confirmation"
+  ]
+}
