@@ -46,8 +46,8 @@ Show the sample diff, analyze it, point to the file and line counts, write a sho
 
 ## Suggested screenshots
 
-- `screenshot_empty.png` — clean first state before a diff is loaded.
-- `screenshot_reflection.png` — analyzed sample with evidence counts and an author-written reflection.
+- `screenshot_empty.jpg` — clean first state before a diff is loaded.
+- `screenshot_reflection.jpg` — analyzed sample with evidence counts and an author-written reflection.
 
 ## Public demo
 
