@@ -17,6 +17,8 @@ Open `index.html` in a modern browser. No server or package installation is requ
 
 The repository includes a GitHub Pages deployment workflow. The live URL is `https://xqscora.github.io/patchnotes-for-learning/` once deployment succeeds; verify it before using it in a submission.
 
+For a repeatable screen-recording setup, open `https://xqscora.github.io/patchnotes-for-learning/?demo=1`; it stages the real sample, evidence panel, and author reflection controls.
+
 ## Scope and privacy
 
 The prototype runs entirely in the browser. It does not read a local Git repository, upload code, call an API, or retain a pasted diff after the page is closed.

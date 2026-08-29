@@ -37,3 +37,14 @@ document.querySelector("#save").addEventListener("click", () => {
   document.querySelector("#claim-state").textContent = hasText ? "written by author" : "needs both notes";
 });
 renderEvidence();
+
+// Demo mode keeps the real controls visible while staging a repeatable recording.
+if (new URLSearchParams(window.location.search).get("demo") === "1") {
+  window.setTimeout(() => sampleButton.click(), 700);
+  window.setTimeout(() => {
+    document.querySelector("#change-note").value = "I added a small parser that turns one input change into visible evidence.";
+    document.querySelector("#learn-note").value = "I tested how file headers and line prefixes become a concise explanation.";
+    document.querySelector("#analyze").click();
+  }, 1500);
+  window.setTimeout(() => document.querySelector("#save").click(), 2300);
+}

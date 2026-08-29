@@ -4,13 +4,14 @@
 
 - Public source repository: `https://github.com/xqscora/patchnotes-for-learning`
 - Verified Pages demo: `https://xqscora.github.io/patchnotes-for-learning/`
-- Local screenshots: `screenshot_empty.png`, `screenshot_reflection.png`
+- Local screenshots: `screenshot_empty.jpg`, `screenshot_reflection.jpg`
 - Video script: `VIDEO_SCRIPT.md`
+- Recording entry: `https://xqscora.github.io/patchnotes-for-learning/?demo=1`
 
 ## Before Devpost
 
 1. Confirm the live FirstCommit rules and official build window.
-2. Record a real 3–5 minute screen demo from the Pages URL using `VIDEO_SCRIPT.md`.
+2. Record a real 3–5 minute screen demo from the Pages URL (or the `?demo=1` recording entry) using `VIDEO_SCRIPT.md`.
 3. Upload the video as public or unlisted to a permitted video host and verify playback in a signed-out window.
 4. Keep the project-specific repository and live demo URLs together; do not substitute Signal Commons or another project.
 
