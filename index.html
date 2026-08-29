@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PatchNotes for Learning</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">FIRSTCOMMIT · LEARNING EVIDENCE</p>
+      <h1>PatchNotes for Learning</h1>
+      <p class="lede">Turn a code change into something you can explain, without inventing a learning story for you.</p>
+    </header>
+    <section class="input-panel">
+      <div class="panel-title"><div><p class="eyebrow">STEP 01</p><h2>Paste one diff</h2></div><span>local only</span></div>
+      <textarea id="diff" spellcheck="false" aria-label="Unified diff" placeholder="Paste a unified diff here..."></textarea>
+      <div class="actions"><button id="analyze" type="button">Analyze change</button><button id="sample" type="button" class="secondary">Load sample</button></div>
+    </section>
+    <section class="dashboard" aria-live="polite">
+      <article class="panel evidence"><div class="panel-title"><div><p class="eyebrow">STEP 02</p><h2>Change evidence</h2></div><span id="files-count">0 files</span></div><div class="stats"><strong id="added">0</strong><span>added</span><strong id="removed">0</strong><span>removed</span></div><div id="files" class="files"><p class="muted">Analyze a diff to see traceable evidence.</p></div></article>
+      <article class="panel reflection"><div class="panel-title"><div><p class="eyebrow">STEP 03</p><h2>Author reflection</h2></div><span id="claim-state">not written</span></div><label>What changed, in your own words?<textarea id="change-note" placeholder="I changed..." ></textarea></label><label>What did you learn or test?<textarea id="learn-note" placeholder="I learned/tested..." ></textarea></label><button id="save" type="button">Mark reflection written</button><p class="muted note">The tool does not verify or invent your claims. The diff remains the evidence.</p></article>
+    </section>
+    <footer><span>Browser-only · no upload</span><span>PatchNotes / 2026</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
