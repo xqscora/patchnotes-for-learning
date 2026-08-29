@@ -44,11 +44,22 @@ AI coding assistance was used while drafting the HTML, CSS, JavaScript, and docu
 
 Show the sample diff, analyze it, point to the file and line counts, write a short reflection, and explain why the tool refuses to invent the author's learning claim.
 
+## Suggested screenshots
+
+- `screenshot_empty.png` — clean first state before a diff is loaded.
+- `screenshot_reflection.png` — analyzed sample with evidence counts and an author-written reflection.
+
+## Public demo
+
+- Live demo: `https://xqscora.github.io/patchnotes-for-learning/`
+- Source: `https://github.com/xqscora/patchnotes-for-learning`
+- The live demo is a preview aid; FirstCommit still requires a separate 3–5 minute demo video.
+
 ## Remaining before submission
 
 - [ ] Confirm the FirstCommit build window and reread live rules.
 - [ ] Create a Cora-owned public repository for this project only.
 - [ ] Capture a real 3–5 minute demo video.
+- [x] Capture two real browser screenshots locally.
 - [ ] Add the repository, video, and screenshots to Devpost.
 - [ ] Verify the project was created during the official event window.
-
