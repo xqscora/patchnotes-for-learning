@@ -1,6 +1,6 @@
 # PatchNotes for Learning · Submission Draft
 
-> Draft only. Review the event window and claims before creating a Devpost project.
+> Local copy of the project payload. The FirstCommit Devpost draft now exists; final submission is still unclaimed.
 
 ## Project name
 
@@ -57,9 +57,11 @@ Show the sample diff, analyze it, point to the file and line counts, write a sho
 
 ## Remaining before submission
 
-- [ ] Confirm the FirstCommit build window and reread live rules.
-- [ ] Create a Cora-owned public repository for this project only.
-- [ ] Capture a real 3–5 minute demo video.
+- [x] Confirm the FirstCommit build window and reread live rules.
+- [x] Create a Cora-owned public repository for this project only.
+- [x] Capture a real 3–5 minute demo video.
 - [x] Capture two real browser screenshots locally.
-- [ ] Add the repository, video, and screenshots to Devpost.
-- [ ] Verify the project was created during the official event window.
+- [x] Add the repository, video, and two screenshots to the Devpost draft; photo IDs `5250226` and `5250227` were observed.
+- [x] Verify the project was created as the FirstCommit draft `1162099` during the current event window.
+- [ ] Save the edited project-details page after action-time confirmation.
+- [ ] Accept the terms and perform the final Devpost submission after action-time confirmation.
