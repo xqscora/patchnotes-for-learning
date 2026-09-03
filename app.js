@@ -27,7 +27,24 @@ function renderEvidence() {
   document.querySelector("#added").textContent = added;
   document.querySelector("#removed").textContent = removed;
   filesCount.textContent = `${files.length} ${files.length === 1 ? "file" : "files"}`;
-  filesOutput.innerHTML = files.length ? files.map(file => `<div class="file"><strong>${file.name}</strong><span>${file.added} added · ${file.removed} removed · ${file.hunks} hunk${file.hunks === 1 ? "" : "s"}</span></div>`).join("") : '<p class="muted">No unified diff file headers found.</p>';
+  filesOutput.replaceChildren();
+  if (!files.length) {
+    const empty = document.createElement("p");
+    empty.className = "muted";
+    empty.textContent = "No unified diff file headers found.";
+    filesOutput.append(empty);
+    return;
+  }
+  for (const file of files) {
+    const row = document.createElement("div");
+    row.className = "file";
+    const name = document.createElement("strong");
+    name.textContent = file.name;
+    const details = document.createElement("span");
+    details.textContent = `${file.added} added · ${file.removed} removed · ${file.hunks} hunk${file.hunks === 1 ? "" : "s"}`;
+    row.append(name, details);
+    filesOutput.append(row);
+  }
 }
 
 sampleButton.addEventListener("click", () => { diffInput.value = sampleDiff; renderEvidence(); });
